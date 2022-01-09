@@ -1,4 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(206, 204, 204);
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    border-bottom: black;
+}
+body{
+    background-color: rgb(252, 252, 240);
+}
+.main-info{
+    padding: 20px;
+}
+.nav-bar{
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
+}
+.a-nav{
+    text-decoration: none;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+main{
+    padding: 20px
+}
+button{
+    font-size: large;
+    background-color: black;
+    color: white;
+}
 .test{
     color: coral;
     text-align: center;
+}
+.center-container{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.contact-list{
+    color: black;
+    font-size: medium;
+    margin: 30px
+}
+.bio-list{
+    margin: 20px;
+}
+.proj-list{
+    margin: 10px;
+    list-style-type: none;
+}
+.proj-li{
+    list-style-position:inside;
+    border: 5px;
 }
